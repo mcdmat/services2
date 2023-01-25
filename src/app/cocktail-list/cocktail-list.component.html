@@ -1,0 +1,15 @@
+
+<p>cocktail-list works!</p>
+<div *ngFor="let cocktail of cocktails ">
+  <fieldset>
+<div>
+ NOM: {{cocktail.name}}
+</div>
+<div>
+ Prix: {{cocktail.price}}
+</div>
+<div>
+ Image: <img [src]="cocktail.img" alt="">{{cocktail.img}}
+</div>
+</fieldset>
+</div>
